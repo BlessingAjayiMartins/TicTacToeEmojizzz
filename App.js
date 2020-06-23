@@ -29,7 +29,7 @@ const App = () => {
   return (
     <SafeAreaView style={{ flex: 1}}>
       <WebView
-        source={{uri: 'http://tictactoe-react-firebase.web.app/' }}
+        source={{uri: 'http://tictactoe-react-firebase.firebaseapp.com/' }}
         // source={{uri: 'https://playtictactoe.org/' }}
       />
     </SafeAreaView>
