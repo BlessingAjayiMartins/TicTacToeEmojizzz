@@ -147,7 +147,7 @@ android {
         release {
             // You need to specify either an absolute path or include the
             // keystore file in the same directory as the build.gradle file.
-            storeFile file("C:\Users\bless\Desktop\keystores\tictactoeEmoji.jks")
+            storeFile file("C:/Users/bless/Desktop/keystores/tictactoeEmoji.jks")
             storePassword "TttEmojiKeyStore"
             keyAlias "upload"
             keyPassword "YZ2drXziCoIx1g7cAS$Q"
