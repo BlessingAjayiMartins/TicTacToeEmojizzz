@@ -144,6 +144,14 @@ android {
         }
     }
     signingConfigs {
+        release {
+            // You need to specify either an absolute path or include the
+            // keystore file in the same directory as the build.gradle file.
+            storeFile file("C:\Users\bless\Desktop\keystores\tictactoeEmoji.jks")
+            storePassword "TttEmojiKeyStore"
+            keyAlias "upload"
+            keyPassword "YZ2drXziCoIx1g7cAS$Q"
+        }
         debug {
             storeFile file('debug.keystore')
             storePassword 'android'
@@ -158,7 +166,7 @@ android {
         release {
             // Caution! In production, you need to generate your own keystore file.
             // see https://facebook.github.io/react-native/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
