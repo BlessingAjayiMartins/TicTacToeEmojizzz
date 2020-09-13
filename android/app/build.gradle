@@ -150,7 +150,7 @@ android {
             storeFile file("tictactoeEmoji.jks")
             storePassword "TttEmojiKeyStore"
             keyAlias "upload"
-            keyPassword "YZ2drXziCoIx1g7cAS$"
+            keyPassword "YZ2drXziCoIx1g7cAS$Q"
         }
         debug {
             storeFile file('debug.keystore')
