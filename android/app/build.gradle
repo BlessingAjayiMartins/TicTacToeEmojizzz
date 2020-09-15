@@ -149,7 +149,7 @@ android {
             // keystore file in the same directory as the build.gradle file.
             storeFile file("tictactoeEmoji.jks")
             storePassword "TttEmojiKeyStore"
-            keyAlias "upload"
+            keyAlias "upload02"
             keyPassword "YZ2drXziCoIx1g7cAS"
         }
         debug {
