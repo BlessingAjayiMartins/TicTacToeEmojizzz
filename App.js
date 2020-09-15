@@ -35,7 +35,7 @@ const App = () => {
     </SafeAreaView>
   );
 };
-
+//test
 const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: Colors.lighter,
